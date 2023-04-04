@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>F2project</title>
+</head>
+<body>
+    <div class="container">
+        <div><h1>Student Management CRUD</h1></div>
+        <div>
+            <form id="form">
+                <div class="inputform">
+                    <div class="input-row1">
+                        <div>
+                            <input type="text" class="input" id="nameInput" placeholder="Name">
+                        </div>
+                        <div><input type="email" class="input" id="emailInput" placeholder="Email"></div>
+                        <div><input type="text" class="input" id="gpaInput" placeholder="GPA"></div>
+                     </div>
+                     <div class="input-row2">
+                        <div><input type="number" class="input" id="ageInput" placeholder="Age"></div>
+                        <div><input type="text" class="input" id="degreeInput" placeholder="Degree"></div>
+                     </div>
+                     <div class="input-row3">
+                        <button type="submit" id="btn_form" class="btn">Add Student</button>
+                     </div>
+                </div>            
+            </form>
+        </div>
+        <div class="search">
+            <input type="text" class="search-input" onkeyup="searchFunc()"id="searchInput" placeholder="Search by Name,email or degree">
+        </div>
+        <div>
+            <table>
+            </thead>
+            <tr>
+                    <td class="column-1">ID</td>
+                    <td class="column-2">Student Name</td>
+                    <td class="column-3">Email</td>
+                    <td class="column-4">Age</td>
+                    <td class="column-5">GPA</td>
+                    <td class="column-6">Degree</td>
+           </tr>
+            <thead>
+             <tbody id="student_data">
+                
+                </tr>
+               
+             </tbody>
+             
+        </table></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

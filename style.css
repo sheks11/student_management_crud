@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.inputform{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.input-row1{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+.input{
+    background-color:black;
+    width: 350px;
+    border:0.5px solid whitesmoke;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+}
+.input-row2{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.btn{
+    background-color: white;
+    font-weight: bold;
+    width: 500px;
+    height:40px;
+    padding: 10px;
+}
+.search{
+    margin: 30px 0px;
+}
+.search-input{
+    background-color:black;
+    width: 900px;
+    border:0.5px solid whitesmoke;
+    color: grey;
+    padding: 10px;
+    font-size: medium;
+}
+
+table{
+    border-collapse: collapse; 
+    width: 900px;
+}
+.column-1{
+    text-align: center;
+    padding: 8px 0px;
+    border: 0.5px solid white;
+}
+.column-2{
+    padding: 8px 8px;
+    border:0.5px solid white;
+}
+.column-3{
+    padding: 8px 8px;
+    border: 0.5px solid white;
+}
+.column-4{
+    padding: 8px 8px;
+    border: 0.5px solid white;
+}
+.column-5{
+    padding: 8px 8px;
+    border: 0.5px solid white;
+}
+.column-6{
+    padding: 8px 8px;
+    border: 0.5px solid white;
+}
+.column-body-6{
+    display: flex;
+    justify-content: space-between;
+}
